@@ -69,14 +69,8 @@ function static_chart() {
                     //console.log("Label: " + contenu_labels + "/ Data: " + contenu_data);
                     
             }
-    
-        } else { alert("Error loading the data :-(")}   
-        
-        
-        // créa graphic statique
-        
+        } else { alert("Error loading the data :-(")} 
         update_chart();
-   
     } 
 
     
