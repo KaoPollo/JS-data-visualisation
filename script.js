@@ -40,8 +40,13 @@ function insertAfter(referenceNode, newNode) {
 insertAfter(firstHeading, newCanvas1);
 //--------------------------------------------------------------
 
+
+
+
+
 //----------------------- Graphique dynamique -----------------------
 
+// Création des variables
 var contenu_chart1 = [];
 var contenu_data = [];
 var contenu_labels = [];
@@ -80,7 +85,7 @@ function static_chart() {
     xhttp.send();
 }
 
-    
+//    
 var len= 9;   
     
 function update_chart() {
@@ -132,6 +137,10 @@ const myChart1 = new Chart(newCanvas1, {
 });
 
 //--------------------------------------------------------------
+
+
+
+
 
 
 
